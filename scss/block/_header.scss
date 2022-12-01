@@ -1,0 +1,40 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    .first{
+        display: flex;
+        .logo{
+            width: 203px;
+            height: 24px;
+            margin-top: 20px;
+            margin-left: 113px;
+        }
+        .about{
+            width: 500px;
+            height: 30px;
+            .navbar{
+                .about__ul{
+                    list-style: none;
+                    display: flex;
+                    position: absolute;
+                    height: 15px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 0.923077px;
+                    text-transform: uppercase;
+                    color: #83888F;
+                    column-gap: 33px;
+                    top: 50px;
+                    right: 81px;
+                    justify-content: end;
+                    }
+                }
+            }
+        }
+}

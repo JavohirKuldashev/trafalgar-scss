@@ -1,0 +1,63 @@
+.background_p{
+    z-index: 0;
+    position: absolute;
+    display: inline-block;
+    width: 1111px;
+    height: 196px;
+    margin: 108px 0 0 165px; 
+    text-align: center;
+    height: 72px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 72px;
+    color: #83888F;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 100%, #FEFCF7 0,01%);
+}
+
+.collection{
+    .gran{
+        position: absolute;
+        z-index: 1;
+        width: 255px;
+        height: 0px;
+        margin: 134px 0 0 165px;
+        &__title{
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #333D4B;
+        }
+        &__p{
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #333D4B;
+        }
+    }
+    .planalto{
+        position: absolute;
+        width: 255px;
+        margin: 134px 0 0 450px;
+    }
+    .picollo{
+        position: absolute;
+        margin: 134px 0 0 734px;
+        width: 255px;
+        height: 1000px;
+    }
+    .danche{
+        position: absolute;
+        margin: 150px 0 0 1020px;
+        width: 255px;
+        height: 1000px;
+    }
+}
+
