@@ -337,4 +337,16 @@
   font-weight: 900;
   font-size: 18px;
   line-height: 25px;
+}
+
+.nimadir {
+  width: 1280px;
+  height: 120px;
+  background-color: #2C343E;
+  margin: 160px 80px 88px 80px;
+  position: fixed;
+}
+.nimadir .logo2 {
+  width: 203px;
+  height: 24px;
 }/*# sourceMappingURL=main.css.map */
