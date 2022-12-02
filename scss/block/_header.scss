@@ -1,15 +1,14 @@
-html{
-    margin: 0;
-    padding: 0;
-}
+ 
 
 .header{
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    width: 1500px;
+    height: 150px;
     .first{
         display: flex;
         .logo{
-            width: 203px;
-            height: 24px;
-            margin-top: 20px;
             margin-left: 113px;
         }
         .about{
@@ -19,6 +18,7 @@ html{
                 .about__ul{
                     list-style: none;
                     display: flex;
+                    padding: 23px 0 0 0;
                     position: absolute;
                     height: 15px;
                     font-family: 'Barlow';
@@ -30,9 +30,7 @@ html{
                     text-transform: uppercase;
                     color: #83888F;
                     column-gap: 33px;
-                    top: 50px;
                     right: 81px;
-                    justify-content: end;
                     }
                 }
             }

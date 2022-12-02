@@ -1,15 +1,14 @@
-html {
-  margin: 0;
-  padding: 0;
+.header {
+  z-index: 1;
+  position: fixed;
+  background-color: white;
+  width: 1500px;
+  height: 150px;
 }
-
 .header .first {
   display: flex;
 }
 .header .first .logo {
-  width: 203px;
-  height: 24px;
-  margin-top: 20px;
   margin-left: 113px;
 }
 .header .first .about {
@@ -19,6 +18,7 @@ html {
 .header .first .about .navbar .about__ul {
   list-style: none;
   display: flex;
+  padding: 23px 0 0 0;
   position: absolute;
   height: 15px;
   font-family: "Barlow";
@@ -31,16 +31,14 @@ html {
   color: #83888F;
   -moz-column-gap: 33px;
        column-gap: 33px;
-  top: 50px;
   right: 81px;
-  justify-content: end;
 }
 
 .great {
   width: 1280px;
   height: 600px;
   top: 73px;
-  background-image: url(.../images/Bitmap.png);
+  background-image: url(../block/Bitmap.png);
   margin: 141px 0 0 81px;
 }
 .great__title {
@@ -103,7 +101,6 @@ html {
 
 .collection .gran {
   position: absolute;
-  z-index: 1;
   width: 255px;
   height: 0px;
   margin: 134px 0 0 165px;
