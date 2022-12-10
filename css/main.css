@@ -1,20 +1,26 @@
 .header {
+  position: fixed;
   z-index: 1;
   background-color: white;
   width: 1500px;
   height: 150px;
+  margin-top: -150px;
 }
-.header .first {
+
+.first {
+  padding-top: 40px;
   display: flex;
 }
-.header .first .logo {
+.first .logo {
+  cursor: pointer;
   margin-left: 113px;
 }
-.header .first .about {
+.first .about {
   width: 500px;
   height: 30px;
 }
-.header .first .about .navbar .about__ul {
+.first .about .navbar .about__ul {
+  cursor: pointer;
   list-style: none;
   display: flex;
   padding: 23px 0 0 0;
@@ -32,12 +38,15 @@
        column-gap: 33px;
   right: 81px;
 }
+.first .about .about__ul li:hover {
+  color: #000;
+  transition: 0.4s ease;
+}
 
 .great {
   width: 1280px;
   height: 600px;
   top: 73px;
-  background-image: url(../block/Bitmap.png);
   margin: 141px 0 0 81px;
 }
 .great__title {

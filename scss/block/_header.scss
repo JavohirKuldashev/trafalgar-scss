@@ -1,13 +1,17 @@
  
 
 .header{
+    position: fixed;
     z-index: 1;
     background-color: white;
     width: 1500px;
     height: 150px;
+    margin-top: -150px;}
     .first{
+        padding-top: 40px;
         display: flex;
         .logo{
+            cursor: pointer;
             margin-left: 113px;
         }
         .about{
@@ -15,6 +19,7 @@
             height: 30px;
             .navbar{
                 .about__ul{
+                    cursor: pointer;
                     list-style: none;
                     display: flex;
                     padding: 23px 0 0 0;
@@ -32,6 +37,9 @@
                     right: 81px;
                     }
                 }
+                .about__ul li:hover{
+                    color: #000;
+                    transition: 0.4s ease;
             }
         }
 }
