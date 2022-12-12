@@ -1,4 +1,18 @@
- 
+button{
+    cursor: pointer;
+} 
+
+button:hover{
+    background: #66D2CF;
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+
+button:disabled{
+    background: #E2DEDB;
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
 
 .header{
     position: fixed;
@@ -34,7 +48,7 @@
                     text-transform: uppercase;
                     color: #83888F;
                     column-gap: 33px;
-                    right: 81px;
+                    right: 181px;
                     }
                 }
                 .about__ul li:hover{

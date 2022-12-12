@@ -1,3 +1,19 @@
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background: #66D2CF;
+  border-radius: 6px;
+  transition: 0.4s ease;
+}
+
+button:disabled {
+  background: #E2DEDB;
+  border-radius: 6px;
+  transition: 0.4s ease;
+}
+
 .header {
   position: fixed;
   z-index: 1;
@@ -36,7 +52,7 @@
   color: #83888F;
   -moz-column-gap: 33px;
        column-gap: 33px;
-  right: 81px;
+  right: 181px;
 }
 .first .about .about__ul li:hover {
   color: #000;
@@ -348,14 +364,43 @@
   line-height: 25px;
 }
 
-.nimadir {
+.footer {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 200px;
   width: 1280px;
   height: 120px;
   background-color: #2C343E;
-  margin: 160px 80px 88px 80px;
-  position: fixed;
 }
-.nimadir .logo2 {
-  width: 203px;
-  height: 24px;
+.footer .endlogo {
+  padding: 47.44px 0 0 117.9px;
+}
+.footer .about_for {
+  width: 500px;
+  height: 15px;
+  padding: 43.44px 0 0 103px;
+}
+.footer .about_for .about__ull {
+  display: flex;
+  list-style: none;
+  font-style: normal;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  gap: 33px;
+}
+.footer .about_for .about__ull li:hover {
+  cursor: pointer;
+  color: black;
+  transition: 0.4s ease;
+}
+.footer .icon {
+  display: flex;
+  gap: 24px;
+  padding-top: 47.44px;
+  padding-left: 155px;
 }/*# sourceMappingURL=main.css.map */
